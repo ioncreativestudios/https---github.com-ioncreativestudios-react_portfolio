@@ -23,7 +23,7 @@ const Project = ({ title, subtitle }) => {
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
-        <p className="text-2xl font-playfair">{title}</p>
+        <p className="text-2xl font-Inter">{title}</p>
         <p className="mt-7">{subtitle}</p>
       </div>
       <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
@@ -47,7 +47,7 @@ const Projects = () => {
         }}
       >
         <div>
-          <p className="font-playfair font-semibold text-4xl">
+          <p className="font-Inter font-semibold text-4xl">
             <span className="text-blue">PRO</span>JECTS
           </p>
           <div className="flex justify-center mt-5">
@@ -73,7 +73,7 @@ const Projects = () => {
           {/* ROW 1 */}
           <div
             className="flex justify-center text-center items-center p-10 bg-amber-600
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+              max-w-[400px] max-h-[400px] text-2xl font-Inter font-semibold"
           >
             BEAUTIFUL USER INTERFACES
           </div>
@@ -91,7 +91,7 @@ const Projects = () => {
           <Project title="Project 7" />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+              max-w-[400px] max-h-[400px] text-2xl font-Inter font-semibold"
           >
             SMOOTH USER EXPERIENCE
           </div>

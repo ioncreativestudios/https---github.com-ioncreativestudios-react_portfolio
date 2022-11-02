@@ -16,7 +16,7 @@ const Testimonials = () => {
           visible: { opacity: 1, x: 0 },
         }}
       >
-        <p className="font-playfair font-semibold text-4xl mb-5 text-blue">
+        <p className="font-Inter font-semibold text-4xl mb-5 text-blue">
           TESTIMONIALS
         </p>
         <LineGradient width="w-1/2" />
@@ -31,7 +31,7 @@ const Testimonials = () => {
       {/* TESTIMONIALS */}
       <div className="md:flex md:justify-between gap-8">
         <motion.div
-          className="mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto relative bg-blue max-w-[400px] h-[400px] flex flex-col justify-end p-16 mt-48
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person1"
           initial="hidden"
           whileInView="visible"
@@ -42,7 +42,7 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="font-playfair text-6xl">“</p>
+          <p className="font-Inter text-6xl">“</p>
           <p className="text-center text-sm">
             Working with Ryan has been effortless and educational. I am a visual
             person who needs his vision interpreted and then placed. Ryan's
@@ -52,7 +52,7 @@ const Testimonials = () => {
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-amber-600 max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto relative bg-amber-600 max-w-[400px] h-[400px] flex flex-col justify-end p-16 mt-48
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person2"
           initial="hidden"
           whileInView="visible"
@@ -73,7 +73,7 @@ const Testimonials = () => {
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-yellow max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto relative bg-yellow max-w-[400px] h-[400px] flex flex-col justify-end p-16 mt-48
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person3"
           initial="hidden"
           whileInView="visible"
@@ -84,7 +84,7 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="font-playfair text-6xl">“</p>
+          <p className="font-Inter text-6xl">“</p>
           <p className="text-center text-sm">
             Over the years I have come to rely on Ryan's skills to bring my
             business visions to market. No matter the challenge, Ryan meets it
