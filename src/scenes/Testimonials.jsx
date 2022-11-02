@@ -43,8 +43,11 @@ const Testimonials = () => {
           }}
         >
           <p className="font-playfair text-6xl">“</p>
-          <p className="text-center text-xl">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea.
+          <p className="text-center text-sm">
+            Working with Ryan has been effortless and educational. I am a visual
+            person who needs his vision interpreted and then placed. Ryan's
+            skill set allows me to be creatively free while effectively
+            delivering my vision!
           </p>
         </motion.div>
 
@@ -82,8 +85,11 @@ const Testimonials = () => {
           }}
         >
           <p className="font-playfair text-6xl">“</p>
-          <p className="text-center text-xl">
-            Fames odio in at. At magna ornare dictum lectus.
+          <p className="text-center text-sm">
+            Over the years I have come to rely on Ryan's skills to bring my
+            business visions to market. No matter the challenge, Ryan meets it
+            head on and delivers an end product that is intuitive, creative, and
+            cost effective! Our biz dev teams have come to rely on his skills!
           </p>
         </motion.div>
       </div>
